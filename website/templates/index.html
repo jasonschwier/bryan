@@ -74,62 +74,85 @@
 				<input type="text" placeholder="Search by state, postcode or suburb">
 				<button class="site-btn">Search</button>
 			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+			<p>The real estate listing information is provided by California Regional MLS, Inc. and/or CARETS® for the consumer’s personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumer may be interested in purchasing or leasing. Any information relating to a property referenced on this web site comes from the Internet Data Exchange (IDX) program of the California Regional MLS, Inc. and/or CARETS®. This web site may reference real estate listing(s) held by a brokerage firm other than the broker and/or agent who owns the web site. Information is deemed reliable but not guaranteed, and consumer is responsible for verifying the accuracy of all information. Copyright © California Regional MLS, Inc. and/or CARETS®. All Rights Reserved.</p>
 		</form>
 	</div>
-	</BR>
+	</br>
+	
 
 
 	<!-- Property Section -->
 	<section class="property-section">
 		<div class="container">
-			<h1><STRONG>FEATURED LISTINGS</STRONG></h1>
+			
 			<div class="section-title">
+				<div class="shadow p-3 mb-5 bg-white rounded"><h3 class="text-secondary"><STRONG>FEATURED LISTINGS</STRONG></H3></div>
 			</div>
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="property-item">
 						<div class="pi-image">
-							<img src="{% static 'website/img/property/1.jpg' %}" alt=""> 
-							<div class="pi-badge new">New</div>
+							<a href="{% url 'listing1' %}">
+								<img src="{% static 'website/img/540southcoast/1.jpg' %}" alt=""> 
+								<!----
+								<div class="pi-badge new">New</div>
+								--->
+							</a>
 						</div>
-						<h3>$469,000</h3>
-						<h5>3 Bedrooms Townhouse</h5>
-						<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora.</p>
-						<a href="{% url 'listing1' %}" class="readmore-btn">Find out more</a>
+						<center>
+						<a href="{% url 'listing1' %}">
+							<h6><strong>540 Southcoast Dr. Walnut</strong></h6>
+						</a>
+							<h6>4 bd | 3 ba | 2,442 sqft</h6>
+							<h5>$1,168,888</h5></br>
+
+							
+						</center>
+					
+			
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="property-item">
 						<div class="pi-image">
-							<img src="{% static 'website/img/property/2.jpg' %}" alt=""> 
-							<div class="pi-badge offer">Offer</div>
+							<a href="{% url 'listing2' %}">
+								<img src="{% static 'website/img/9277ranchoparkpl/main9277.jpg' %}" alt="" height="220"> 
+							</a>
+							
 						</div>
-						<h3>$369,000</h3>
-						<h5>3 Bedrooms Townhouse</h5>
-						<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora.</p>
-						<a href="{% url 'listing1' %}" class="readmore-btn">Find out more</a>
+
+						<center>
+						<a href="{% url 'listing2' %}">
+							<h6><strong>9277 Rancho Park Pl. Rancho Cucamonga</strong></h6>
+						</a>
+							<h6>3 bd | 3 ba | 1,609 sqft</h6>
+							<h5>$399,000</h5></br>
+
+							
+						</center>
+						
 					</div>
 				</div>
-				<div class="col-lg-4">
-					<div class="property-item">
-						<div class="pi-image">
-							<img src="{% static 'website/img/property/3.jpg' %}" alt=""> 
-							<div class="pi-badge new">New</div>
-						</div>
-						<h3>$560,000</h3>
-						<h5>3 Bedrooms Townhouse</h5>
-						<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora.</p>
-						<a href="{% url 'listing1' %}" class="readmore-btn">Find out more</a>
-					</div>
-				</div>
+
+			<!---3rd listing--->	
+
+
+			<!---end 3rd listing--->
+			
 			</div>
 		</div>
+
 	</section>
 
 
 
-<!-- Intro Section end -->
+
+
+
+
+	
+
+
 	<section class="intro-section spad">
 		<div class="container">
 			<div class="section-title">
@@ -141,8 +164,8 @@
 				</div>
 				<div class="col-lg-6 order-lg-1">
 					<div class="about-text">
-						<h3>We charge 2% total. No hidden fees or upfront costs.</h3>
-						<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl a, auctor euismod purus. Morbi pretium interdum vestibulum. Fusce nec eleifend ipsum. Sed non blandit tellus.</p>
+						<h3>KASE REAL ESTATE</h3>
+						<p>We understand that buying or selling a home is more than just a transaction: it's a life-changing experience. That's why our team of highly-seasoned real estate professionals is dedicated to providing exceptional, personalized service for all of our clients. We take great pride in the relationships we build and always work relentlessly on the client's behalf to help them achieve their real estate goals. </p>
 						<a href="#" class="readmore-btn">Find out more</a>
 					</div>
 				</div>
@@ -153,33 +176,18 @@
 				</div>
 				<div class="col-lg-6 ">
 					<div class="about-text">
-						<h3>How Much Can You Save? We work for you, not commission.</h3>
-						<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl a, auctor euismod purus. Morbi pretium interdum vestibulum. Fusce nec eleifend ipsum. Sed non blandit tellus.</p>
+						<h3>OUR MISSION </h3>
+						<p>Our philosophy is simple: clients come first. We pledge to be in constant communication with our clients, keeping them fully informed throughout the entire buying or selling process. We believe that if you're not left with an amazing experience, we haven't done our job. We don't measure success through achievements or awards, but through the satisfaction of our clients. </p>
 						<a href="#" class="readmore-btn">Find out more</a>
 					</div>
 				</div>
 			</div>
 		</div>
+
 	</section>
 
 
-	<!-- Loan Section end -->
-	<section class="loan-section">
-		<div class="loan-warp">
-			<div class="container">
-				<div class="section-title text-white">
-					<h2>See If You Qualify for a Mortgage</h2>
-					<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl a, auctor euismod purus. Morbi pretium interdum vestibulum. Fusce nec eleifend ipsum. Sed non blandit tellus. </p>
-				</div>
-				<form class="loan-form">
-					<input type="text" placeholder="Your income">
-					<input type="text" placeholder="Amount needed">
-					<button class="site-btn">Submit</button>
-				</form>
-			</div>
-		</div>
-	</section>
-	<!-- Loan Section end -->
+	
 
 	<!-- Stories Section end -->
 	<section class="stories-section spad">

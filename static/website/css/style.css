@@ -501,15 +501,15 @@ Hero section
  -------------------*/
 
 .property-section {
-	padding-bottom: 52px;
+	padding-bottom: 5px;
 }
 
 .property-section .section-title {
-	margin-bottom: 90px;
+	margin-bottom: 0px;
 }
 
 .property-item {
-	margin-bottom: 55px;
+	margin-bottom: 20px;
 }
 
 .property-item img {
@@ -518,7 +518,7 @@ Hero section
 
 .property-item .pi-image {
 	position: relative;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 
 .property-item .pi-badge {
@@ -559,12 +559,12 @@ Loan section
  -------------------*/
 
 .loan-section {
-	padding: 0 54px;
+	padding: 0 0px;
 }
 
 .loan-warp {
 	background: #22242b;
-	padding: 95px 0 110px;
+	padding: 40px 0 40px;
 }
 
 .loan-form {
@@ -591,18 +591,18 @@ Footer section
  -------------------*/
 
 .footer-section {
-	padding: 110px 0 0;
+	padding: 50px 0 0;
 	background: #22242b;
 }
 
 .footer-widger {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .footer-widger h2 {
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: 500;
-	padding-top: 65px;
+	padding-top: 25px;
 	margin-bottom: 33px;
 }
 
@@ -1108,20 +1108,22 @@ Contact Page
  ---------------------*/
 
 .contact-section {
-	padding: 100px 0;
+	padding: 140px 0;
 }
 
 .contact-section .section-title {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
-.contact-text {
+.contact-text  {
 	padding-right: 95px;
+	
+
 }
 
 .contact-info-box {
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 70px;
 }
 
 .contact-info-box .ci-icon {
@@ -1154,7 +1156,7 @@ Contact Page
 .contact-form {
 	padding: 61px 33px;
 	margin-top: 50px;
-	background: #f5f8fa;
+	background: #C1BFBF;
 	text-align: center;
 }
 
@@ -1479,3 +1481,4 @@ Responsive
 		min-width: auto;
 	}
 }
+

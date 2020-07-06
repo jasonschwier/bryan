@@ -13,6 +13,9 @@ def contact(request):
 def listing1(request):
 	return render(request, 'listing1.html', {})
 
+def listing2(request):
+	return render(request, 'listing2.html', {})
+
 def main(request):
 	return render(request, 'main.html', {})
 
@@ -21,6 +24,8 @@ def news(request):
 
 def search(request):
 	return render(request, 'search.html', {})
+
+
 
 
 

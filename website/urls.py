@@ -11,6 +11,7 @@ urlpatterns = [
 	path('news.html', views.news, name="news"),
 	path('search.html', views.search, name="search"),
 	path('listing1.html', views.listing1, name="listing1"),
+	path('listing2.html', views.listing2, name="listing2"),
 
 
 	

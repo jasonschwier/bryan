@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block 'content' %}
+
+{% load static %}
+
+</br>
+</br>
+
+<section class="single-property-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="single-property">
+						<div class="sp-image">
+							<img src="{% static 'website/img/9277ranchoparkpl/main9277.jpg' %}" alt="">
+						
+						</div>
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="property-header">
+									<h3>9277 Rancho Park Pl</h3>
+									<h5>Rancho Cucamonga, CA 91730 </h5>
+								</div>
+							</div>
+							<div class="col-lg-4 text-left text-lg-right">
+								<div class="property-header">
+									<h3>$399,000</h3>
+									<p>3 bd | 3 ba | 1,609 sqft</p>
+								</div>
+							</div>
+						</div>
+						<div class="property-info-bar">
+							<div class="row">
+							
+								<div class="col-lg-5 text-left text-lg-right">
+									<a href="#" class="offer-btn">Make an Offer</a>
+								</div>
+							</div>
+						</div>
+						<div class="property-text">
+							<h4>Description</h4>
+							<p>As you walk into the property you will fall in love with the vaulted ceilings allowing an immense amount of natural light throughout the entire house. The first floor offers a large upgraded kitchen with lots of counters space, built in dishwasher, recessed lighting, a formal dining room, study/den room and a half bath restroom. The second floor offers 3 bedrooms and 2 full bathrooms, which the master suite bedroom includes it's own master bathroom with a walk in-closet and its own fireplace. The property offers 1609 square feet of living space with an attached 2 car garage, and a backyard with a wrap around patio. Rancho Park Community offers a gated entrance, pool, spa, playground and recreation room!</p>
+							
+						</div>
+						<div class="property-feature">
+							<div class="row">
+								
+								  <img src="{% static 'website/img/9277ranchoparkpl/9277facts.png' %}">
+							
+								
+							</div>
+						
+						
+						</div>
+					</div>
+				
+		
+				</div>
+				<div class="col-lg-4 col-md-8 sidebar">
+					
+					<div class="map-widget">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522" style="border:0" allowfullscreen></iframe>
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3822444977905!2d-117.60473368540167!3d34.08534698059695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c334369da583ff%3A0xe56c65803b637b98!2s9277%20Rancho%20Park%20Pl%2C%20Rancho%20Cucamonga%2C%20CA%2091730!5e0!3m2!1sen!2sus!4v1594010267238!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+					<div class="agent-widget">
+						<img src="{% static 'website/img/bryan2.png' %}" alt="">
+						<div class="aw-text">
+							<h4>Bryan Van Zee</h4>
+							<h6>Real Estate Agent</h6>
+							<p>Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. </p>
+							<a href="{% url 'contact' %}" class="readmore-btn">Contact the agent</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+{% endblock %}
