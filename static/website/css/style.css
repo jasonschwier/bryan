@@ -92,7 +92,7 @@ Helper CSS
 }
 
 .section-title h2 {
-	font-size: 72px;
+	font-size: 45px;
 }
 
 .section-title p {
@@ -107,8 +107,8 @@ Helper CSS
 }
 
 .spad {
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 .text-white h1,
@@ -232,7 +232,7 @@ Header section
 	width: 100%;
 	left: 0;
 	top: 0;
-	padding: 0 53px;
+	padding: 0 0;
 	background: rgba(0, 0, 0, 0.7);
 	z-index: 999;
 }
@@ -243,35 +243,45 @@ Header section
 
 .header-nav {
 	text-align: right;
-	padding-top: 35px;
+	padding-top: 30px;
+	padding-right: 50px;
 }
 
 .site-logo {
 	float: left;
 	display: inline-block;
-	padding: 39px 0;
+	padding: 0px 0px;
+	max-width: 25%;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 }
 
 .main-menu {
 	display: inline-block;
-	padding-right: 30px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 
 .main-menu li {
 	display: inline-block;
 	position: relative;
+	padding-top: 0px;
+
 }
 
 .main-menu li a {
 	display: block;
-	font-size: 16px;
+	font-size: 19px;
 	color: #ffffff;
 	font-family: "Lato", sans-serif;
-	padding: 0 1px 5px;
+	padding: 1px 1px 5px;
 	border-bottom: 2px solid transparent;
-	margin-right: 45px;
+	margin-right: 40px;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
+
 }
 
 .main-menu li a:hover,
@@ -282,7 +292,7 @@ Header section
 .main-menu li:hover>.sub-menu {
 	visibility: visible;
 	opacity: 1;
-	margin-top: 20px;
+	margin-top: 2px;
 }
 
 .main-menu .sub-menu {
@@ -470,7 +480,7 @@ Intro section
 }
 
 .about-text h3 {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .about-text h2 {
@@ -480,7 +490,7 @@ Intro section
 }
 
 .about-text p {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .readmore-btn {
@@ -509,7 +519,7 @@ Hero section
 }
 
 .property-item {
-	margin-bottom: 20px;
+	margin-bottom: 1px;
 }
 
 .property-item img {
@@ -542,16 +552,16 @@ Hero section
 	background: #ffba00;
 }
 
-.property-item h3 {
-	margin-bottom: 10px;
+.property-item h6 {
+	margin-bottom: 1px;
 }
 
 .property-item h5 {
-	margin-bottom: 25px;
+	margin-bottom: 2px;
 }
 
 .property-item p {
-	margin-bottom: 20px;
+	margin-bottom: 2px;
 }
 
 /* ----------------
@@ -1298,21 +1308,22 @@ Responsive
 
 @media only screen and (max-width: 767px) {
 	.header-section {
-		padding: 0 15px;
+		padding: 0px 15px;
 	}
 	.site-logo {
-		padding: 26px 0;
+		padding: 10px 0;
+		max-width: 60%;
 	}
 	.header-nav {
 		display: none;
 	}
 	.slicknav_menu {
-		padding: 0;
+		padding:0px 0px 0px;
 		display: block;
 		background: transparent;
 	}
 	.slicknav_menu .header-right-warp {
-		padding: 10px 0;
+		padding: 5px 0;
 		padding-right: 10px;
 		border-bottom: 1px solid #111;
 		text-align: right;
@@ -1481,4 +1492,11 @@ Responsive
 		min-width: auto;
 	}
 }
+
+
+
+
+
+
+
 

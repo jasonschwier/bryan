@@ -12,6 +12,9 @@ urlpatterns = [
 	path('search.html', views.search, name="search"),
 	path('listing1.html', views.listing1, name="listing1"),
 	path('listing2.html', views.listing2, name="listing2"),
+	path('listing3.html', views.listing3, name="listing3"),
+	path('listing4.html', views.listing4, name="listing4"),
+
 
 
 	

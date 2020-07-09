@@ -77,137 +77,123 @@
 			<p>The real estate listing information is provided by California Regional MLS, Inc. and/or CARETS® for the consumer’s personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumer may be interested in purchasing or leasing. Any information relating to a property referenced on this web site comes from the Internet Data Exchange (IDX) program of the California Regional MLS, Inc. and/or CARETS®. This web site may reference real estate listing(s) held by a brokerage firm other than the broker and/or agent who owns the web site. Information is deemed reliable but not guaranteed, and consumer is responsible for verifying the accuracy of all information. Copyright © California Regional MLS, Inc. and/or CARETS®. All Rights Reserved.</p>
 		</form>
 	</div>
-	</br>
 	
+<section>
+	<div class="container">
+		<div class="shadow p-1 mb-1 bg-white rounded">
 
-
-	<!-- Property Section -->
-	<section class="property-section">
-		<div class="container">
-			
-			<div class="section-title">
-				<div class="shadow p-3 mb-5 bg-white rounded"><h3 class="text-secondary"><STRONG>FEATURED LISTINGS</STRONG></H3></div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="property-item">
-						<div class="pi-image">
-							<a href="{% url 'listing1' %}">
-								<img src="{% static 'website/img/540southcoast/1.jpg' %}" alt=""> 
-								<!----
-								<div class="pi-badge new">New</div>
-								--->
-							</a>
-						</div>
-						<center>
-						<a href="{% url 'listing1' %}">
-							<h6><strong>540 Southcoast Dr. Walnut</strong></h6>
-						</a>
-							<h6>4 bd | 3 ba | 2,442 sqft</h6>
-							<h5>$1,168,888</h5></br>
-
-							
-						</center>
-					
-			
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="property-item">
-						<div class="pi-image">
-							<a href="{% url 'listing2' %}">
-								<img src="{% static 'website/img/9277ranchoparkpl/main9277.jpg' %}" alt="" height="220"> 
-							</a>
-							
-						</div>
-
-						<center>
-						<a href="{% url 'listing2' %}">
-							<h6><strong>9277 Rancho Park Pl. Rancho Cucamonga</strong></h6>
-						</a>
-							<h6>3 bd | 3 ba | 1,609 sqft</h6>
-							<h5>$399,000</h5></br>
-
-							
-						</center>
-						
-					</div>
-				</div>
-
-			<!---3rd listing--->	
-
-
-			<!---end 3rd listing--->
-			
-			</div>
+			<h1 class="mt-4"><strong><center>FEATURED LISTINGS</center></strong></h1>
+		
 		</div>
 
-	</section>
+</br>
+<div class="container">
+	<div class="overflow-auto">
+		<div class="d-flex flex-nowrap bd-highlight">
 
 
 
 
+			<div class="card" style="width: 77rem;">
+			 	<div class="order-1 p-2 bd-highlight">
+			 		<img src="{% static 'website/img/540southcoast/1.jpg' %}">
+		 		<div class="card-body-center">
+		 			<center>
+					<h5 class="card-title"><strong>540 Southcoast Dr.</br> Walnut 91789</strong>
+					<p class="card-text">4 bd | 3 ba | 2,442 sqft</br> $1,168,888</p></h5>
+					</center>
+			
+					</div></div>
+			</div>
+		
 
+			<div class="card" style="width: 80rem;">
+				<div class="order-2 p-2 bd-highlight"><img src="{% static 'website/img/9277ranchoparkpl/main9277.jpg' %}"><div class="card-body-center">
+						<center>
+						<h5 class="card-title"><strong>9277 Rancho Park Pl.</br> Rancho Cucamonga 91730</strong>
+						<p class="card-text">3 bd | 3 ba | 1,609 sqft</br>$399,000</p></h5>
+						</center>
+			
+					</div></div>
+			</div>
 
+		    <div class="card" style="width: 83rem;">
+			 	<div class="order-3 p-2 bd-highlight"><img src="{% static 'website/img/16697tourmalinest/16697tourmalinestmain.webp' %}"><div class="card-body-center">
+			 			
+			 			<center>
+						<h5 class="card-title"><strong>16697 Tourmaline St.</br> Chino Hills 91709</strong>
+						<p class="card-text">4 bd | 3 ba | 3,125 sqft</br>$878,000</p></h5>
+						</center>
+			
+					</div></div>
+			</div>
+ 			<div class="card" style="width: 68rem;">
+			 	<div class="order-4 p-2 bd-highlight"><img src="{% static 'website/img/152socodr/152socodrmain.webp' %}"><div class="card-body-center">
+			 			
+			 			<center>
+						<h5 class="card-title"><strong>152 Soco Dr.</br> Fullerton 92832</strong>
+						<p class="card-text">2 bd | 2 ba | 1,847 sqft</br>$570,000 </p></h5>
+						</center>
+			
+					</div></div>
+			</div>
 
+		 
+		
+		</div>
+	</div>
+</div>
 	
 
 
-	<section class="intro-section spad">
+</section>
+</br>
+
+
+<section class="intro-section spad">
 		<div class="container">
-			<div class="section-title">
-				<h2>Sell Faster. Save Thousands.</h2>
-			</div>
+			<div class="shadow p-1 mb-1 bg-white rounded">
+				<h1><strong><center>INSPIRED TO MOVE</center></strong></h1>
+			</div></br>
 			<div class="row intro-first">
 				<div class="col-lg-6 order-lg-2">
-					<img src="{% static 'website/img/about/1.jpg' %}" alt="">  
+					<img src="{% static 'website/img/kase.jpg' %}" alt="">
 				</div>
 				<div class="col-lg-6 order-lg-1">
 					<div class="about-text">
-						<h3>KASE REAL ESTATE</h3>
-						<p>We understand that buying or selling a home is more than just a transaction: it's a life-changing experience. That's why our team of highly-seasoned real estate professionals is dedicated to providing exceptional, personalized service for all of our clients. We take great pride in the relationships we build and always work relentlessly on the client's behalf to help them achieve their real estate goals. </p>
-						<a href="#" class="readmore-btn">Find out more</a>
+						<h3>Who We Are</h3><br>
+						<h1><strong>KASE REAL ESTATE</strong></h1>
+						<p>We understand that buying or selling a home is more than just a transaction: it’s a life-changing experience. That’s why our team of highly-seasoned real
+						estate professionals is dedicated to providing exceptional, personalized service for all of our clients. We take great pride in the relationships we build and always work relentlessly on the client’s behalf to help them achieve their
+						real estate goals.</p>
+
+						<p>Our team of experts represents the best and brightest in the industry, and we’re always striving to lead the field in research, innovation, and consumer
+						education. Today’s buyers and sellers need a trusted resource that can guide them through the complex world of real estate. With our extensive knowledge
+						and commitment to providing only the best and most timely information to our clients, we are your go-to source for real estate industry insight and
+						advice.</p>
+				
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
-					<img src="{% static 'website/img/about/2.jpg' %}" alt=""> 
+					<img src="{% static 'website/img/kase1.jpg' %}" alt="">
 				</div>
 				<div class="col-lg-6 ">
 					<div class="about-text">
-						<h3>OUR MISSION </h3>
-						<p>Our philosophy is simple: clients come first. We pledge to be in constant communication with our clients, keeping them fully informed throughout the entire buying or selling process. We believe that if you're not left with an amazing experience, we haven't done our job. We don't measure success through achievements or awards, but through the satisfaction of our clients. </p>
-						<a href="#" class="readmore-btn">Find out more</a>
+						<h3>Our Purpose</h3></br>
+						<h1><strong>OUR MISSION</strong></h1>
+						<p>Our philosophy is simple: clients come first. We pledge to be in constant communication with our clients, keeping them fully informed throughout the entire buying or selling process. We believe that if you’re not left with an amazing experience, we haven’t done our job. We don’t measure success through achievements or awards, but through the satisfaction of our clients.</p>
+			
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</section>
+
 
 
 	
-
-	<!-- Stories Section end -->
-	<section class="stories-section spad">
-		<div class="container">
-			<div class="row ">
-				<div class="col-lg-5 order-lg-2">
-					<img class="w-100" src="{% static 'website/img/2.png' %}">
-				</div>
-				<div class="col-lg-7 order-lg-1">
-					<div class="about-text">
-						<h2>Seller Success Stories</h2>
-						<p>Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl a, auctor euismod purus. Morbi pretium interdum vestibulum. Fusce nec eleifend ipsum. Sed non blandit tellus. </p>
-						<a href="#" class="readmore-btn">Find out more</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
 
 
 
